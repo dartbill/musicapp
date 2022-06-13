@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import likeBtn from './Like';
+
 
 const Artists = () => {
   const [artists, setArtists] = useState([

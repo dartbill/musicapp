@@ -1,13 +1,15 @@
 import React from 'react';
-import TrainerCard from './components/TrainerCard';
-import PokemonCards from './components/PokemonCards';
+import ArtistCard from './components/TrainerCard';
+import Artists from './components/PokemonCards';
+import LikeBtn from './components/Like';
 
 function App() {
   return (
     <main>
       <h1>Music Artists</h1>
-      <TrainerCard />
-      <PokemonCards />
+      <ArtistCard />
+      <Artists />
+      <LikeBtn />
     </main>
   );
 }
