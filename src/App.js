@@ -1,17 +1,15 @@
 import React from 'react';
-import ArtistCard from './components/TrainerCard';
-import Artists from './components/PokemonCards';
-import LikeBtn from './components/Like';
+// import { Header, Footer } from './layout';
+import { default as MusicArtist } from './pages/MusicArtist'
 
-function App() {
+const App = () => {
   return (
-    <main>
-      <h1>Music Artists</h1>
-      <ArtistCard />
-      <Artists />
-      <LikeBtn />
-    </main>
-  );
-}
+    <>
+    {/* <Header /> */}
+    < MusicArtist />
+    {/* <Footer /> */}
+    </>
+  )
+};
 
 export default App;

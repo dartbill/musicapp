@@ -12,7 +12,7 @@ const LikeBtn = () =>{
     }
 return(
     <div>
-<button onClick={checkLikeCount}>
+<button aria-label="likebtn" onClick={checkLikeCount}>
     like count: {likeCount}
 </button>
 

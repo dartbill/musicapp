@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Artists from './PokemonCards';
+import Artists from '../Artists';
 
 
 
