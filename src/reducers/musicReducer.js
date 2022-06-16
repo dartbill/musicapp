@@ -6,6 +6,8 @@ const MusicReducer = (state=initState, action) => {
     switch(action.type) {
         case 'ADDLIKE':
             return { like: state.like + action.payload}
+        case 'ADDLIKE':
+            return { like: state.like - action.payload}
         default:
             return initState;
     }

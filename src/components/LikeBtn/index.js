@@ -8,28 +8,38 @@ import MusicReducer from '../../reducers/musicReducer';
 
 const LikeBtn = () =>{
     
+
     const like = useSelector(state => {
         return state.like
     })
-    console.log(like)
+    
     const dispatch = useDispatch();
     
 
     const  handleClick = () => {
+        if(like===0){
          dispatch({type: "ADDLIKE", payload: 1})
+        }
+         else{
+        dispatch({type: "REMOVELIKE", payload: 1})
+         }
     }
-   console.log(handleClick)
+
 
     const checkLikeCount = () =>{
+
         if(like==0){
-           handleClick
+            // console.log(like)
+            // console.log("something")
+            const something = handleClick
+            return something
         }
     }
 
 
 return(
     <div>
-        <button aria-label="likebtn" onClick={handleClick}>
+        <button aria-label="likebtn" onClick={handleClick }>
             like count: {like}
         </button>
     </div>
