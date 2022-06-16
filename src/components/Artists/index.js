@@ -27,7 +27,7 @@ const Artists = () => {
         });
       }
     
-    fetchArtist()
+    // fetchArtist()
   }, [])
   const [artists, setArtists] = useState([
     { album: 'Sleep is for the week', songs: "The Real Damage, Vital Signs, Romantic Fatigue, A Decent Cup Of Tea, Fathers Day, Worse Things Happen At Sea, My Kingdom For A Horse, Back In The Day Once We Were Anarchists, Wisdom Teeth, The Ladies Of London Town, Must Try Harder, The Ballad Of Me And My Friends",releaseDate:"15.01.07", coverArt:"https://cdn1.umg3.net/269/files/2013/03/Frank_Turner_Sleep_is_for_the_Week-318x313.jpg" },
