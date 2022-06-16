@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArtistCard, Artists, LikeBtn} from '../components';
 
 
 function MusicArtist() {
+
   return (
     <main>
       <h1>Music Artists</h1>
